@@ -12,10 +12,10 @@ Click here to install the code directly in your developer edition org:
 
 ##Leap Year Requirements
 Leap years are fairly easy to calculate. The following rules determine whether or not a year is a leap year:
-1. If the year is before 1582, then it is not a leap year
-2. If the year is divisible by four but not 100, then it is a leap year
-3. If the year is divisible by 100, but NOT 400, it is NOT a leap year
-4. If the year is divisible by 100 AND by 400, then it is a leap year
+1. If the year is before 1582, then it is not a leap year. <br />
+2. If the year is divisible by four but not 100, then it is a leap year. <br />
+3. If the year is divisible by 100, but NOT 400, it is NOT a leap year. <br />
+4. If the year is divisible by 100 AND by 400, then it is a leap year. <br />
 5. Otherwise, not a leap year
 
 

@@ -1,0 +1,14 @@
+<apex:page controller="LeapYearsController" >
+    <apex:form >
+        <apex:pageBlock title="Leap Year Check">
+            <apex:pageblockButtons location="bottom" >
+                <apex:commandButton value="Check Leap Year"/>
+            </apex:pageblockButtons>
+            
+            <apex:pageblockSection >
+                <apex:inputtext label="Input"  />       
+                <apex:outputText label="Leap Year?" value="Yes"></apex:outputText> 
+            </apex:pageblockSection>
+        </apex:pageBlock>
+      </apex:form>
+</apex:page>

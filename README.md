@@ -4,6 +4,12 @@ This is the Leap Years exercise presented at London's Calling by Chris Aldridge 
 
 The exercise is a walkthrough of how to apply Test Driven Development to a simple problem: calculating whether or not a date is a leap year.
 
+Click here to install the code directly in your developer edition org:
+<a href="https://githubsfdeploy.herokuapp.com?owner=chrisaldridge&repo=LondonsCalling">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
+</a>
+
 ##Leap Year Requirements
 Leap years are fairly easy to calculate. The following rules determine whether or not a year is a leap year:
 1. If the year is before 1582, then it is not a leap year

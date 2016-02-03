@@ -12,6 +12,9 @@ public class LeapYearsController
         This is known as dependency injection - this controller no longer has a dependency on the
         LeapYearService class, and whichever class creates this controller can dictate which
         ILeapYearService implementation it uses.
+        
+        Alex Tennant has a great blog post which introduces dependency injection with Apex:
+        https://adtennant.co.uk/blog/2016/01/25/writing-true-unit-tests-using-dependency-injection-mocking-apex/
     */
     private ILeapYearService LYService;
     

@@ -10,7 +10,7 @@ public class LeapYearsController_Test
     private static testMethod void CheckLeapYear_displays_leapyear_result()
     {
         /*
-            Test Setup
+            Arrange
         */
         
         // Create the controller
@@ -26,12 +26,12 @@ public class LeapYearsController_Test
         
         
         /*
-            Call method under test
+            Act
         */
         controller.CheckLeapYear();
         
         /*
-            Assert Outcomes
+            Assert
         */
         
         // IsLeapYear property on controller should not be set to true
@@ -41,7 +41,7 @@ public class LeapYearsController_Test
     private static testMethod void CheckLeapYear_adds_page_messages_if_exception()
     {
         /*
-            Test Setup
+            Arrange
         */
         
         // Create the controller
@@ -57,7 +57,7 @@ public class LeapYearsController_Test
         
         
         /*
-            Call method under test
+            Act
         */
         try
         {
@@ -71,7 +71,7 @@ public class LeapYearsController_Test
         
         
         /*
-            Assert Outcomes
+            Assert
         */
         
         // An error should have been added to ApexPages.getMessages()

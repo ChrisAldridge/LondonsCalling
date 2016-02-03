@@ -13,18 +13,14 @@ public class LeapYearsController_Test
             Arrange
         */
         
-        // Create the controller
-        LeapYearsController controller = new LeapYearsController();
-        controller.InputNumber = 2000;
-        
         // Set up the stub response to return "true"
         LeapYearServiceStub stub = new LeapYearServiceStub();
         stub.ResultToReturn = true;
         
-        // Inject the stub into the controller
-        controller.LYService = stub;
-        
-        
+        // Create the controller and inject the leapyear service stub
+        LeapYearsController controller = new LeapYearsController(stub);
+        controller.InputNumber = 2000;
+
         /*
             Act
         */
@@ -44,18 +40,14 @@ public class LeapYearsController_Test
             Arrange
         */
         
-        // Create the controller
-        LeapYearsController controller = new LeapYearsController();
-        controller.InputNumber = 2000;
-        
         // Set up the stub response to return "true"
         LeapYearServiceStub stub = new LeapYearServiceStub();
         stub.ExceptionToReturn = new CustomException('Something went wrong');
         
-        // Inject the stub into the controller
-        controller.LYService = stub;
-        
-        
+        // Create the controller and inject the fake leapyearservice
+        LeapYearsController controller = new LeapYearsController(stub);
+        controller.InputNumber = 2000;
+
         /*
             Act
         */
